@@ -1,0 +1,37 @@
+/* Reset Default Space */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+body{
+     background-color: rgb(243, 239, 239);
+    color : black;
+    transition: 0.4s;
+}
+
+.container {
+  margin: 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  column-gap: 20px;
+  font-size: 30px;
+}
+
+/* Change this */
+body.active {
+  background-color: #1a1a1a; /* A darker charcoal looks better than pure black */
+  color: white;
+}
+
+/* Ensure the icon is clickable and looks like a pointer */
+#icon {
+  cursor: pointer;
+}
